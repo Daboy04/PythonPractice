@@ -2,6 +2,11 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
+    #view data
     path('',views.getData),
-    path('add/',views.addReport),
+
+    #add report
+    #path('add/',views.addReport),
+    #delete report
+    #path('delete/<int:pk>/', views.deleteReport, name='delete_report'),
 ]
